@@ -12,7 +12,7 @@ function App({ signOut, user }) {
   return (
     <div>
       <img src={logo} className="App-logo" alt="logo" />
-      <h1>Hello! now with auth{user.username}</h1>
+      <h1>Hello! Agora com autenticação de usuário!!! Que tal!? {user.username}</h1>
       <button onClick={signOut}>Sign out</button>
       </div>
   );
